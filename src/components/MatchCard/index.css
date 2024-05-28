@@ -1,0 +1,51 @@
+.competing-team-logo {
+  width: 70px;
+}
+
+.competing-team {
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+}
+
+.match-card-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-card-li {
+  list-style-type: none;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding: 12px;
+  width: 31%;
+  margin-bottom: 28px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.green-result {
+  color: green;
+}
+
+.red-result {
+  color: red;
+}
+
+@media screen and (max-width: 575px) {
+  .competing-team-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .match-card-li {
+    width: 45%;
+    margin-bottom: 12px;
+  }
+}

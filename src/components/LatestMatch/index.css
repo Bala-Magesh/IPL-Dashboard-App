@@ -1,0 +1,25 @@
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.competing-team-data-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.competing-team-logo-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.competing-team-logo {
+  width: 80px;
+}
+
+.innings-details-wrapper {
+  border-top: 2px solid #475569;
+}

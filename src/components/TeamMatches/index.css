@@ -1,0 +1,48 @@
+.loader-container {
+  background-color: black;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-match-bg-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+  padding: 32px;
+  color: white;
+  font-family: 'bree-serif';
+}
+
+.team-banner-image {
+  width: 100%;
+}
+
+.image-container {
+  margin-bottom: 12px;
+}
+
+.latest-matches-heading {
+  font-size: 14px;
+}
+
+.match-card-ul {
+  padding: 0px;
+  margin-top: 24px;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.team-matches-content {
+  margin: 2%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-matches-heading {
+    font-size: 28px;
+  }
+}
